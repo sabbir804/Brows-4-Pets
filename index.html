@@ -89,7 +89,43 @@
           </div>
           <!-- Banner text -->
           <div class=" space-y-6 absolute lg:top-14 md:top-5 top-0">
-            <h3 class="text-6xl adlam-font">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h3>
+
+
+            <!-- Animation Start -->
+            <div class="">
+              <h3 class=" inline text-6xl adlam-font">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h3>
+
+            <style>
+              .field{
+                width: 400px;
+              }
+              .cat{
+                position: relative;
+                animation: cat 5s ease-in-out 1s infinite alternate-reverse ;
+              }
+              @keyframes cat {
+                from{
+                  left: 0px;
+                color: #FFDC26;
+                  
+                }
+                to{
+                  left: 360px;
+                  color: white;
+                }
+              }
+            </style>
+            <div class="absolute top-32 left-56 field h-16 ">
+              <div class="cat ">
+                <i class="text-5xl fa-solid fa-dog"></i>
+              </div>
+            </div>
+            </div>
+            <!-- Animation End -->
+
+
+
+
           <p class="max-w-xs md:max-w-lg text-gray-500">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
           <button class="text-xl px-10 py-3 bg-primary-color rounded-lg">Find a pet</button>
           </div>
@@ -433,5 +469,33 @@
       </div>
     </footer>
     <!-- Footer End-->
+
+
+
+
+    <section>
+      <h3 class="adlam-font text-4xl mb-10">Clients Review</h3>
+      <div>
+
+        <div class="card card-side bg-base-100 shadow-xl bg-red-300">
+
+          <div class="avatar">
+          </div>
+          <div class="avatar">
+            <div class="w-24 rounded-full">
+              <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+            </div>
+          </div>
+
+          <div class="card-body">
+            <h2 class="card-title">"Absolutely love the quality! My pup adores the toys. Fast shipping and great service!"</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    
+    
 </body>
 </html>
